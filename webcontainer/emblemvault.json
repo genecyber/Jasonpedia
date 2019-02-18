@@ -9,12 +9,13 @@
         "title": "Regular Browser"
       },
       "style": {
-        "background": "#ffffff"
+        "background": "#00ff00",
+        "color": "#00ff00"
       },
       "background": {
         "type": "html",
         "url": "https://75880cc0.ngrok.io",
-        "background": "#ffffff",
+        "background": "#00ff00",
         "action": {
           "type": "$default"
         }
