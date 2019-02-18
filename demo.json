@@ -139,7 +139,14 @@
               "text": "Wrote a cool/useful JSON markup? Send a pull request to https://github.com/Jasonette/Jasonpedia"
             }]
           },
-          "items": [{
+          "items": [
+            {
+            "type": "label",
+            "text": "Emblem Vault",
+            "href": {
+              "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/home.json",
+              "transition": "modal"
+            }, {
             "type": "label",
             "text": "Instagram",
             "href": {
