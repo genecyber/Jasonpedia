@@ -9,8 +9,7 @@
         "title": "Emblem Vault"
       },
       "style": {
-        "background": "#00ff00",
-        "color": "#00ff00"
+        "background": "#00ff00"
       },
       "background": {
         "type": "html",
