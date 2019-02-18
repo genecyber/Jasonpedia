@@ -6,16 +6,17 @@
     },
     "body": {
       "header": {
-        "title": "Emblem Vault2"
+        "title": "Emblem Vault 3"
       },
       "style": {
         "background": "#ffffff",
-        "color": "#000000"
+        "color": "red",        
       },
       "background": {
         "type": "html",
         "url": "http://75880cc0.ngrok.io",
         "background": "#000000",
+        "color": "red",
         "action": {
           "type": "$default"
         }
