@@ -158,7 +158,7 @@
             "type": "label",
             "text": "Twitter",
             "href": {
-              "url": "https://github.com/genecyber/Jasonpedia/blob/gh-pages/webcontainer/emblemvault.json",
+              "url": "https://raw.githubusercontent.com/genecyber/Jasonpedia/gh-pages/webcontainer/emblemvault.json",
               "transition": "modal"
             }
           }]
