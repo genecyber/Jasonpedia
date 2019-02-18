@@ -11,6 +11,7 @@
       "background": {
         "type": "html",
         "url": "https://75880cc0.ngrok.io",
+        "background": "#ffffff",
         "action": {
           "type": "$default"
         }
