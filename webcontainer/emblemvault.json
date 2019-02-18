@@ -2,33 +2,36 @@
   "$jason": {
     "head": {
       "title": "Emblem Vault",
+      "description": "This example takes user input from native body.footer.input component and sends it to the web container, calling the qr code update function",
       "actions": {
-        "visit": [
-          {
-            "{{#if /\\/edit/.test($jason.url)}}": {
-              "type": "$href",
-              "options": {
-                "url": "{{$jason.url.replace('/edit', '')}}",
-                "preload": {
-                  "background": "#ffffff"
-                }
-              }
-            }
-          },
-          {
-            "{{#else}}": {
-              "type": "$default"
-            }
+        "qr": {
+          "type": "$agent.request",
+          "options": {
+            "id": "$webcontainer",
+            "method": "qr",
+            "params": ["{{$get.val}}"]
           }
-        ]
+        }
       }
     },
     "body": {
+      "header": {
+        "title": "Generate QR Code"
+      },
       "background": {
         "type": "html",
-        "url": "http://75880cc0.ngrok.io",
-        "action": {
-          "trigger": "visit"
+        "url": "https://75880cc0.ngrok.io/"
+      },
+      "footer": {
+        "input": {
+          "textfield": {
+            "name": "val",
+            "placeholder": "Type something"
+          },
+          "right": {
+            "text": "Generate",
+            "action": { "trigger": "qr" }
+          }
         }
       }
     }
