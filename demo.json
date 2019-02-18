@@ -146,7 +146,8 @@
             "href": {
               "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/home.json",
               "transition": "modal"
-            }, {
+            }
+          }, {
             "type": "label",
             "text": "Instagram",
             "href": {
