@@ -142,7 +142,7 @@
           "items": [
             {
             "type": "label",
-            "text": "Emblem Vault",
+            "text": "Emblem Vault 2",
             "href": {
               "url": "https://raw.githubusercontent.com/genecyber/Jasonpedia/gh-pages/webcontainer/emblemvault.json",
               "transition": "modal"
