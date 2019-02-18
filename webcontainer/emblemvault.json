@@ -1,7 +1,7 @@
 {
   "$jason": {
     "head": {
-      "title": "Behave like a regular browser",
+      "title": "Emblem Vault",
       "description": "The web container will behave like a regular browser, refreshing content when you click a link"
     },
     "body": {
