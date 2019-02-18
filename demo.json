@@ -144,7 +144,7 @@
             "type": "label",
             "text": "Emblem Vault",
             "href": {
-              "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/home.json",
+              "url": "webcontainer/emblemvault.json",
               "transition": "modal"
             }
           }, {
@@ -158,7 +158,7 @@
             "type": "label",
             "text": "Twitter",
             "href": {
-              "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/home.json",
+              "url": "https://github.com/genecyber/Jasonpedia/blob/gh-pages/webcontainer/emblemvault.json",
               "transition": "modal"
             }
           }]
