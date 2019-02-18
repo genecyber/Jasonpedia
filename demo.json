@@ -144,21 +144,7 @@
             "type": "label",
             "text": "Emblem Vault",
             "href": {
-              "url": "webcontainer/emblemvault.json",
-              "transition": "modal"
-            }
-          }, {
-            "type": "label",
-            "text": "Instagram",
-            "href": {
-              "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/home.json",
-              "transition": "modal"
-            }
-          }, {
-            "type": "label",
-            "text": "Twitter",
-            "href": {
-              "url": "https://raw.githubusercontent.com/genecyber/Jasonpedia/gh-pages/webcontainer/agent/index.json",
+              "url": "https://raw.githubusercontent.com/genecyber/Jasonpedia/gh-pages/webcontainer/emblemvault.json",
               "transition": "modal"
             }
           }]
