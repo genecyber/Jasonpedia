@@ -5,13 +5,13 @@
       "description": "The web container will behave like a regular browser, refreshing content when you click a link"
     },
     "body": {
-      "header": {
+      "header-ish": {
         "title": "Emblem Vault 4"
       },
       
       "background": {
         "type": "html",
-        "url": "http://75880cc0.ngrok.io",
+        "url": "http://35.192.39.110/",
         "action": {
           "type": "$default"
         }
